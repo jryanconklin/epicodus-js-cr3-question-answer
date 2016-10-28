@@ -1,6 +1,9 @@
 <div class="well col-sm-5">
+  {{#link-to 'question' question.id}}
   <h4>{{question.author}}</h4>
+  {{/link-to}}
   <p>{{question.query}}</p>
+  <button {{action 'delete' question}}>Delete</button>
 </div>
 <div class="col-sm-1">
 </div>

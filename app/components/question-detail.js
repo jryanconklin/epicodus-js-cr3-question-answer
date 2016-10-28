@@ -1,8 +1,8 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  actions: {
 
+  actions: {
     delete(question) {
       if(confirm('For Realsies?')) {
         this.sendAction('destroyQuestion', question);

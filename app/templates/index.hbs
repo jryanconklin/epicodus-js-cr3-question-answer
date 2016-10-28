@@ -1,9 +1,11 @@
 <h3>Welcome to the Question Zone!<br>
 <small>The McElroy Brothers from MBMBAM as the Characters from the Adventure Zone</small></h3>
 
+{{new-question saveQuestion="saveQuestion"}}
+
 <div class="row">
   {{#each model as |question|}}
-    {{question-tile question=question}}
+    {{question-tile question=question destroyQuestion="destroyQuestion"}}
   {{/each}}
 </div>
 
