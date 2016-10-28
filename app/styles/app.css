@@ -13,6 +13,10 @@ header h3 {
   text-shadow: 0 2px 2px rgba(0, 0, 0, .8);
 }
 
+a, a:visited, a:hover, a:link, a:active {
+  text-decoration: none;
+}
+
 header h3 {
   font-size: 1.6em;
 }
@@ -58,9 +62,9 @@ img {
     margin-top: 25px;;
 }
 
-/*.questionWell {
-  margin-top: 2em;
-}*/
+.deleteQuestion {
+  margin: .5em;
+}
 
 .bottomSpacer {
   height: 200px;
