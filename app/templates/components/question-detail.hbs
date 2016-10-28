@@ -1,9 +1,7 @@
-<div class="row">
+<div class="questionWell row">
   <img class="deleteQuestion pull-right" src="/assets/images/delete.png" {{action 'delete' question}} />
-  <div class="well">
-    <h4>{{question.author}} Asks:</h4>
-    <hr>
-    <p>{{question.query}}</p>
-    <p>{{question.notes}}</p>
-  </div>
+  <h4>{{question.author}} Asks:</h4>
+  <h5>{{question.query}}</h5>
+  <hr>
+  <p>{{question.notes}}</p>
 </div>

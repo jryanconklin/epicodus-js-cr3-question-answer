@@ -1,9 +1,7 @@
 <div class="col-sm-4">
-  <img class="deleteQuestion pull-right" src="/assets/images/delete.png" {{action 'delete' question}} />
   <div class="well">
     <h4>{{question.author}}</h4>
-    <p>{{question.query}}</p>
+    <h6>{{question.query}}</h6>
     {{#link-to 'question' question.id}}<p><small>See More...</small></p>{{/link-to}}
-    {{update-question question=question update="update"}}
   </div>
 </div>

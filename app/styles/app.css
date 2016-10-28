@@ -39,10 +39,6 @@ img {
   background-size: cover;
 }
 
-.container {
-  text-align: center;
-}
-
 /*.ember-view {
   background: black;
   height: 100%;
@@ -56,10 +52,6 @@ img {
 .pageHead,
 .mainSection {
     margin-top: 25px;
-}
-
-.mainSection {
-    margin-top: 25px;;
 }
 
 .deleteQuestion {
@@ -78,6 +70,10 @@ img {
   height: 100px;
   border-bottom: solid 15px #BCD5D1;
   bottom: 0;
+}
+
+.questionWell {
+  padding: 1.5em;
 }
 
 /* Floated Images */
