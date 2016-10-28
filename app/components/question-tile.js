@@ -7,6 +7,10 @@ export default Ember.Component.extend({
       if(confirm('For Realsies?')) {
         this.sendAction('destroyQuestion', question);
       }
+    },
+
+    update(question, params) {
+      this.sendAction('update', question, params);
     }
 
 //End
