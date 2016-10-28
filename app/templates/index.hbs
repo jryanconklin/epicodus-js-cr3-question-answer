@@ -1,5 +1,12 @@
 <h3>Welcome to the Question Zone!<br>
-<small>Better Than the McElroy Brothers on MBMBAM</small></h3>
+<small>The McElroy Brothers from MBMBAM as the Characters from the Adventure Zone</small></h3>
+
+<div class="row">
+  {{#each model as |question|}}
+    {{question-tile question=question}}
+  {{/each}}
+</div>
+
 <div class="row">
   <div class="col-md-3">
   </div>
@@ -9,6 +16,8 @@
   <div class="col-md-3">
   </div>
 </div>
-<div class="bottomSpacer">
 
+
+
+<div class="bottomSpacer">
 </div>

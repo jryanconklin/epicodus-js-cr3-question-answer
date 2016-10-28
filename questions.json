@@ -1,0 +1,23 @@
+{
+  "questions":
+  [{
+    "query": "I am a question",
+    "author": "Taako",
+    "notes": "Further Details"
+  }, {
+    "query": "I am another question",
+    "author": "Merle",
+    "notes": "More Further Details"
+  }, {
+    "query": "I am yet another question",
+    "author": "Magnus",
+    "notes": "Yet Even Further Details"
+  }],
+  "answers": [{
+    "response": "I am a response",
+    "genius": "Magnus"
+  }, {
+    "response": "I am another response",
+    "genius": "Taako"
+  }]
+}
