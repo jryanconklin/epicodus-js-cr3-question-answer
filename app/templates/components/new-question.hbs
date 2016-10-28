@@ -1,0 +1,36 @@
+<!-- Button trigger modal -->
+<button id="newQuestionModalButton" type="button" class="btn btn-default" data-toggle="modal" data-target="#newQuestionModal">
+  Ask a Question
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="newQuestionModal" tabindex="-1" role="dialog" aria-labelledby="newQuestionModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="newQuestionModalLabel">Ask a Question</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="author">Your Name</label>
+            {{input class="form-control" value=author id="author"}}
+          </div>
+          <div class="form-group">
+            <label for="query">Question</label>
+            {{input class="form-control" value=query id="query"}}
+          </div>
+          <div class="form-group">
+            <label for="notes">Further Details</label>
+            {{textarea class="form-control" rows=5 value=notes id="notes"}}
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default"data-dismiss="modal" {{action 'saveQuestion' question}}>Ask</button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,8 @@
 /* ID Selectors */
 
+#newQuestionModalButton {
+  margin: 1.2em;
+}
 
 
 /* Core Styles */
@@ -54,6 +57,10 @@ img {
 .mainSection {
     margin-top: 25px;;
 }
+
+/*.questionWell {
+  margin-top: 2em;
+}*/
 
 .bottomSpacer {
   height: 200px;
