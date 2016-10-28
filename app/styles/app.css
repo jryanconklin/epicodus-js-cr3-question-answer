@@ -38,7 +38,7 @@ img {
 
 /*.ember-view {
   background: black;
-  height: 100vh;
+  height: 100%;
 }*/
 
 .mainSection,
@@ -55,9 +55,14 @@ img {
     margin-top: 25px;;
 }
 
+.bottomSpacer {
+  height: 200px;
+}
+
 .mainFooter {
   font-size: .75em;
   width: 100%;
+  margin-top: 5%;
   padding-top: 50px;
   height: 100px;
   border-bottom: solid 15px #BCD5D1;
