@@ -39,9 +39,12 @@ img {
   background-size: cover;
 }
 
+.container {
+  font-family: 'Titillium Web', sans-serif;
+}
+
 /*.ember-view {
-  background: black;
-  height: 100%;
+
 }*/
 
 .mainSection,
