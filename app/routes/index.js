@@ -6,12 +6,12 @@ export default Ember.Route.extend({
      return this.store.findAll('question');
    },
 
-  // model() {
-  //   return Ember.RSVP.hash({
-  //     questions: this.store.findAll('question'),
-  //     answers: this.store.findAll('answer')
-  //   });
-  // },
+  //  model() {
+  //    return Ember.RSVP.hash({
+  //      questions: this.store.findAll('question'),
+  //      answers: this.store.findAll('answer')
+  //    });
+  //  },
 
    actions: {
 

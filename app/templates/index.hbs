@@ -8,9 +8,10 @@
 
 <div class="row">
     {{#each model as |question|}}
-      {{question-tile question=question update="update" destroyQuestion="destroyQuestion"}}
+      {{question-tile question=question}}
     {{/each}}
 </div>
+
 
 <div class="row">
   <div class="col-md-3">
