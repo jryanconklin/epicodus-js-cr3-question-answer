@@ -1,23 +1,16 @@
 {
   "questions":
   [{
-    "query": "I am a question",
-    "author": "Taako",
-    "notes": "Further Details"
+    "query": "Trouble in Phandalin",
+    "author": "Billie Bluejeans",
+    "notes": "Dear Taako, why did you leave me behind in the first story arc?"
   }, {
-    "query": "I am another question",
-    "author": "Merle",
-    "notes": "More Further Details"
+    "query": "Railsplitter",
+    "author": "Angus",
+    "notes": "Dear Magnus, good job on the train! Any chance you could teach me how to use Railsplitter?"
   }, {
-    "query": "I am yet another question",
-    "author": "Magnus",
-    "notes": "Yet Even Further Details"
-  }],
-  "answers": [{
-    "response": "I am a response",
-    "genius": "Magnus"
-  }, {
-    "response": "I am another response",
-    "genius": "Taako"
+    "query": "About Pan...",
+    "author": "Captain Captain Bane",
+    "notes": "I'm curious Merle if you really could tell me more about Pan...?"
   }]
 }
