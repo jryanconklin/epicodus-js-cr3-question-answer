@@ -12,5 +12,9 @@
     "query": "About Pan...",
     "author": "Captain Captain Bane",
     "notes": "I'm curious Merle if you really could tell me more about Pan...?"
+  }],
+  "answers": [{
+    "response": "Response",
+    "genius": "Merle"
   }]
 }
