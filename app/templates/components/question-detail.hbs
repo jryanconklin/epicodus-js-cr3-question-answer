@@ -4,9 +4,11 @@
   <h5>{{question.query}}</h5>
   <hr>
   <p>{{question.notes}}</p>
-  {{update-question question=question update="update"}}
 </div>
 
 <div class="well questionWell">
-  <p>{{answer-tile answer=answer}}</p>
+  {{new-answer saveAnswer="saveAnswer" question=question}}
+  {{#each question.answers as |answer|}}
+    {{answer-tile answer=answer}}
+  {{/each}}
 </div>
