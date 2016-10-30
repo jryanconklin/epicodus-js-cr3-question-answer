@@ -13,7 +13,7 @@ export default Ember.Route.extend({
         }
       });
       question.save();
-      this.transitionTo('/post/post.id');
+      this.transitionTo('index');
     },
 
     destroyQuestion(question) {
