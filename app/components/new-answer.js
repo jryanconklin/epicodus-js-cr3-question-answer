@@ -14,6 +14,8 @@ export default Ember.Component.extend({
         response: this.get('response'),
         question: this.get('question')
       };
+      this.set('genius', '');
+      this.set('response', '');
       this.set('addNewAnswer', false);
       this.sendAction('saveAnswer', params);
     }
