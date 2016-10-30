@@ -1,0 +1,18 @@
+{{#if addNewAnswer}}
+<h3>New Answer</h3>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="genius">Name</label>
+        {{input class="form-control" value=genius id="genius"}}
+      </div>
+      <div class="form-group">
+        <label for="response">Response</label>
+        {{textarea rows=5 class="form-control" value=response id="response"}}
+      </div>
+      <button class="btn btn-default" {{action 'saveAnswer' answer}}>Save</button>
+    </form>
+  </div>
+{{else}}
+  <button class="btn btn-default btn-xs pull-right" {{action 'answerFormShow'}}>New Answer</button>
+{{/if}}

@@ -81,6 +81,10 @@ img {
   padding: 1.5em;
 }
 
+.genius {
+  font-weight: bold !important;
+}
+
 /* Floated Images */
 
 .group:after {
