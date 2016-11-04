@@ -38,12 +38,16 @@ export default Ember.Route.extend({
         }
       });
       answer.save();
-      this.transitionTo('/question/question.id');
     },
 
-    downVote() {
-      this.set('vote' - 1);
-    }
+    downVote(answer, params) {
+      Object.keys(params).forEach(function(key) {
+        if(params[key]!==undefined) {
+          answer.set(key,params[key]);
+        }
+      });
+      answer.save();
+    },
 
 
 //End

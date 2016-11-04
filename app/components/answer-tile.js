@@ -6,15 +6,17 @@ export default Ember.Component.extend({
 
     upVote(answer) {
       var params = {
-        vote: this.get('vote') + 1
+        vote: answer.get('vote') + 1
       };
-      console.log(params.vote);
       this.sendAction('upVote', answer, params);
     },
 
-    downVote() {
-      this.set('vote' - 1);
-    }
+    downVote(answer) {
+      var params = {
+        vote: answer.get('vote') - 1
+      };
+      this.sendAction('upVote', answer, params);
+    },
 
 
 //End
