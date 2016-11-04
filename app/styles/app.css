@@ -53,8 +53,8 @@ img {
   border-radius: .4em .4em .4em .4em;
 }
 
-/*.ember-view {
-
+/*.detailWell {
+  min-height: 175px;
 }*/
 
 .mainSection,

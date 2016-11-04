@@ -1,5 +1,6 @@
 <div class="col-sm-4">
-  <div class="well">
+  <div class="well detailWell">
+    <p class="text-muted">{{question-popularity question}}</p>
     <h4>{{question.author}}</h4>
     <h6>{{question.query}}</h6>
     {{#link-to 'question' question.id}}<p><small>See More...</small></p>{{/link-to}}
