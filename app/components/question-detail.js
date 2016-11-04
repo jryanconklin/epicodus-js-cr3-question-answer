@@ -2,6 +2,10 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
 
+  sortBy: ['vote:desc'],
+  sortedVotes: Ember.computed.sort('question.answers', 'sortBy'),
+
+
   actions: {
     delete(question) {
       if(confirm('For Realsies?')) {

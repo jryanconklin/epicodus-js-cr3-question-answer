@@ -12,7 +12,7 @@
   {{new-answer saveAnswer="saveAnswer" question=question}}
   <h4>Answers</h4>
   <hr>
-  {{#each question.answers as |answer|}}
+  {{#each sortedVotes as |answer|}}
     {{answer-tile upVote="upVote" answer=answer}}
   {{/each}}
 </div>
