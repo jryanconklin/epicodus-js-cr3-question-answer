@@ -18,6 +18,9 @@ export default Ember.Component.extend({
       this.sendAction('upVote', answer, params);
     },
 
+    disableButton() {
+      this.addClass('disabled');
+    }
 
 //End
   }

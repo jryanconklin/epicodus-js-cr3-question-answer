@@ -1,10 +1,12 @@
 <div class="answerTile">
+  <div class="voteButton">
+    <button class="btn btn-default btn-xs pull-right" {{action 'downVote' answer}}>-</button>
+    <button class="btn btn-default btn-xs pull-right" {{action 'upVote' answer}}>+</button>
+  </div>
   <div>
     <h4 class="small">{{answer.genius}} says:</h4>
     <p>{{answer.response}}</p>
+    <p>Votes: {{answer.vote}}</p>
     <p class="text-muted">{{moment-format answer.time}}</p>
-    <p>{{answer.vote}}</p>
-    <button class="btn btn-default btn-xs" {{action 'upVote' answer}}>+</button>
-    <button class="btn btn-default btn-xs" {{action 'downVote' answer}}>-</button>
   </div>
 </div>
