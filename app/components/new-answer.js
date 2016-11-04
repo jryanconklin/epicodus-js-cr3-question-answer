@@ -12,7 +12,8 @@ export default Ember.Component.extend({
       var params = {
         genius: this.get('genius'),
         response: this.get('response'),
-        question: this.get('question')
+        question: this.get('question'),
+        time: new Date().getTime()
       };
       this.set('genius', '');
       this.set('response', '');
