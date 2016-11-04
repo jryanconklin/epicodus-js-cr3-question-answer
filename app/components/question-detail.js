@@ -5,8 +5,14 @@ export default Ember.Component.extend({
   sortBy: ['vote:desc'],
   sortedVotes: Ember.computed.sort('question.answers', 'sortBy'),
 
+  questionSave: Ember.inject.service('question-save'),
 
   actions: {
+
+    addSaved(item) {
+      this.get('questionSave').add(item);
+    },
+
     delete(question) {
       if(confirm('For Realsies?')) {
         this.sendAction('destroyQuestion', question);
