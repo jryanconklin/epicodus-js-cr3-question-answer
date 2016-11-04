@@ -1,5 +1,6 @@
 {{#each questionSave.items as |item|}}
   <div class="col-sm-3">
     {{item.query}}
+    {{#link-to 'question' item.id}}<p><small>See More...</small></p>{{/link-to}}
   </div>
 {{/each}}
