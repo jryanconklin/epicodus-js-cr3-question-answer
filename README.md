@@ -1,7 +1,8 @@
-# Question-answer
+# The Question Zone!
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This program is a project created based on criteria given during my studies at Epicodus. This app allows for a series of questions to be pinned to a main question board area. The questions can be investigated and answered by users!
+
+The board was done in the imagined theme that the characters from the podcast "The Adventure Zone" are answering the questions in the style of another podcast by the same creators called "My Brother, My Brother and Me."
 
 ## Prerequisites
 
@@ -41,7 +42,7 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+This app was created primarily for educational purposes. To Be Determined.
 
 ## Further Reading / Useful Links
 
@@ -50,4 +51,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
