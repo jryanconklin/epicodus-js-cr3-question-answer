@@ -4,5 +4,6 @@
     <h4>{{question.author}}</h4>
     <h6>{{question.query}}</h6>
     {{#link-to 'question' question.id}}<p><small>See More...</small></p>{{/link-to}}
+    <button class="btn btn-default btn-xs pull-right" {{action 'addSaved' question}}><small>Save</small></button>
   </div>
 </div>
