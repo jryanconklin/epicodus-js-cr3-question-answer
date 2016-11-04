@@ -15,7 +15,7 @@
         <label for="notes">Further Details</label>
         {{textarea class="form-control" rows=5 value=question.notes id="notes"}}
       </div>
-      <button class="btn btn-default" {{action 'update' question}}>Save</button>
+      <button class="btn btn-default" {{action 'update' question}}>Save</button><!-- Send to update-question.js -->
     </form>
   </div>
 {{else}}

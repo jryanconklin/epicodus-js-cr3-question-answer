@@ -4,6 +4,7 @@ export default Ember.Component.extend({
 
   actions: {
 
+    //From new-question.hbs
     saveQuestion() {
       var params = {
         author: this.get('author'),
@@ -14,7 +15,7 @@ export default Ember.Component.extend({
       this.set('query', '');
       this.set('notes', '');
       this.sendAction('saveQuestion', params);
-    }
+    } //Send to Index.hbs
 
 //End
   }

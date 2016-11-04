@@ -8,6 +8,7 @@ export default Ember.Component.extend({
       this.set('updateQuestionForm', true);
     },
 
+    //From update-question.hbs
     update(question) {
       var params = {
         author: this.get('author'),

@@ -13,6 +13,7 @@ export default Ember.Component.extend({
         genius: this.get('genius'),
         response: this.get('response'),
         question: this.get('question'),
+        vote: 0,
         time: new Date().getTime()
       };
       this.set('genius', '');

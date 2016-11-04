@@ -15,6 +15,10 @@ export default Ember.Component.extend({
 
     saveAnswer(params) {
       this.sendAction('saveAnswer', params);
+    },
+
+    upVote(answer, params) {
+      this.sendAction('upVote', answer, params);
     }
 
 

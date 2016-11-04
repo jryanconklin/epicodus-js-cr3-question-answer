@@ -11,6 +11,7 @@ export default Ember.Route.extend({
 
    actions: {
 
+     //From Index.hbs
      saveQuestion(params) {
         var newQuestion = this.store.createRecord('question', params);
         newQuestion.save();
