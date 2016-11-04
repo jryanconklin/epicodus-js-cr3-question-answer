@@ -15,15 +15,18 @@
         <form>
           <div class="form-group">
             <label for="author">Your Name</label>
-            {{input class="form-control" value=author id="author"}}
+            {{input class="form-control" value=author id="author" maxlength="50"}}
+            <p class="text-muted"><small>Max 50 Characters</small></p>
           </div>
           <div class="form-group">
             <label for="query">Question</label>
-            {{input class="form-control" value=query id="query"}}
+            {{input class="form-control" value=query id="query" maxlength="100"}}
+            <p class="text-muted"><small>Max 100 Characters</small></p>
           </div>
           <div class="form-group">
             <label for="notes">Further Details</label>
             {{textarea class="form-control" rows=5 value=notes id="notes"}}
+            <p class="text-muted"><small>Unlimited Characters. Go Nuts.</small></p>
           </div>
         </form>
       </div>

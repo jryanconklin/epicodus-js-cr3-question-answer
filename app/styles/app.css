@@ -53,9 +53,9 @@ img {
   border-radius: .4em .4em .4em .4em;
 }
 
-/*.detailWell {
+.detailWell {
   min-height: 175px;
-}*/
+}
 
 .mainSection,
 .mainFooter {
